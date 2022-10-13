@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./BookMyshow3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>BookMyShow</title>
+</head>
+
+<body>
+    <div class="navbar" style=" background-color:white;">
+        <img src="./download.png" width="30%" height="50px" alt="Book My Show">
+    </div>
+    <section class="booking">
+        <div class="type">
+    
+    <select id="TicketType" class="movie">
+        <option value="">Ticket Type</option>
+        <option id="Standard" value="standard">Standard</option>
+        <option value="Premium">Premium</option>
+    </select>
+</div>
+<div class="qty">
+    <select class="option" id="qty">
+        <Option value="0">Qty</Option>
+        <Option value="1">1</Option>
+        <Option value="2">2</Option>
+        <Option value="3">3</Option>
+        <Option value="4">4</Option>
+        <Option value="5">5</Option>
+        </select>
+        <button id="procced" class="submit">Proceed</button>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-9 left_box">
+            <section id="first" class="allotment">
+        </section>
+       <a href="./BookMyshow1.html"><button class="proceed" id="confirmBook">Book-seats</button>
+       </a> 
+        </div>
+        <div class="col-3">
+            <section class="sidebar">
+                    <ul class="showcase">
+                        <strong class="p-0 m-0 key">Key to Seat Layout:</strong>
+                        <li>
+                            <div class="Available"></div>
+                            <small>Available</small>
+                        </li>
+                        <li>
+                            <div class="seat-occupied"></div>
+                            <small>Unavailable</small>
+                        </li>
+                        <li>
+                            <div class="seat-selected"></div>
+                            <small>Your Selection</small>
+                        </li>
+        
+                    </ul>
+            </section>
+        </div>
+    </div>
+    
+   
+    <!-- <p id="submit" class="text">You have selected <span id="count">0</span>seats for a price of $ <span id="total"></span></p> -->
+    
+
+    <script>
+   
+</script>
+
+<script src="./BookMyshow.js"></script>
+
+
+</body>
+
+</html>
